@@ -49,11 +49,12 @@ In addition to standard few-shot episodes defined by 𝐶 -way 𝐾 -shot, other
 **In this section, we give a general few-shot episodic train- ing/evaluation guide in Algorithm 1**
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200529103342667.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L05HVWV2ZXIxNQ==,size_16,color_FFFFFF,t_70)
 
-For few-shot meta-learning, we can al- ways design a deep neural network 𝑓𝜃 parametrized by 𝜃 as the classifier: we denote it as 𝑓𝜃 (⋅|$$S^*$$, $$D_{base}$$), where $$S^*$$ is some support set. 
+For few-shot meta-learning, we can always design a deep neural network 𝑓𝜃 parametrized by 𝜃 as the classifier: we denote it as 𝑓𝜃 (⋅\|$$S^*$$, $$D_{base}$$), where $$S^*$$ is some support set.
 
 **Note that** in our notation $$S^*$$can also be a support set on the base classes $$C_{base}$$ or even the whole base dataset $$D_{base}$$, corresponding to the cases of **meta-training** or **pre- training**, respectively. 
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200529103941285.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L05HVWV2ZXIxNQ==,size_16,color_FFFFFF,t_70)
+
 
 For few-shot classification problems, e.g., 𝐶-way 𝐾- shot classification, the performance of a learning algorithm is measured by its averaged accuracy on the query sets of the tasks generated on the novel dataset $$D_{novel}$$ (i.e., the 15th line of Algorithm 1).
 
@@ -71,7 +72,7 @@ The meta-learner component is to learn transferable prior knowledge from the bas
 # 3. Methods of Few-shot Meta-learning
 
 ## 3.1. Learning an initialization
-The under- lying rationale is that the task-specific parameters are close to this shared global initialization for all the tasks generated from $$D_{base}$$ and $$D_{novel}$$.
+The underlying rationale is that the task-specific parameters are close to this shared global initialization for all the tasks generated from $$D_{base}$$ and $$D_{novel}$$.
 
 **It can be interpreted and executed in the following two ways in recent few-shot meta-learning methods:**
 - To learn a global initialization conditional on the (giant) base dataset
