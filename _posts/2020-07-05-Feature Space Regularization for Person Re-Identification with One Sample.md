@@ -20,17 +20,17 @@ tags:
 - (a) We design the Feature Space Regularization (FSR) Loss to adjust the distribution of samples in feature space. 
 - .(b)Wepropose combiningtheNearestNeighbordistancewithinter-classdistance to estimate pseudo-label for unlabeled data, which we called Joint-Distance. 
 
-==Results== ：the Rank-1 accuracy of our method outperforms the state of the art method by a large margin of 12.1 points (absolute, i.e., 67.9% vs. 55.8%) on Market-1501, and 10.1 points (absolute, i.e., 58.9% vs. 48.8%) on DukeMTMCreID, respectively. 
+Results：the Rank-1 accuracy of our method outperforms the state of the art method by a large margin of 12.1 points (absolute, i.e., 67.9% vs. 55.8%) on Market-1501, and 10.1 points (absolute, i.e., 58.9% vs. 48.8%) on DukeMTMCreID, respectively. 
 
-==Code==  ： FSR and JointDistance for ReID with one sample. （*it hasn't  been made public yet*）
+Code： FSR and JointDistance for ReID with one sample. （*it hasn't  been made public yet*）
 
-==Index Terms== : Person Re-Identiﬁcation, Few Shot Learning,One Shot Learning, Features Space Regularization,Joint Distance
+Index Terms : Person Re-Identiﬁcation, Few Shot Learning,One Shot Learning, Features Space Regularization,Joint Distance
 
 
 # I. INTRODUCTION
  **Most of the existing methods** adopt the supervised approach, which rely on a large amount of labeled data
 
-==The setup of this works==: 
+The setup of this works: 
 - this work is devoted to the one sample learning setting in which only one labeled sample is needed of each identity. 
 - This paper adopts the same progressive learning strategy as in [8].
 
@@ -40,7 +40,7 @@ tags:
 -  One type of approach is to use a static strategy to determine the quantity of selected pseudo-labeled data for further training. 
 -  The other type of methods [5], [6], [7], [8] adopt a progressive strategy to exploit the unlabeled data for training.  **The core idea** of these methods comes from Curriculum Learning [9], which obtains knowledge from easy samples to hard samples in the training phase. 
 
-==The problems of existing methods==:
+The problems of existing methods:
 training with a small number of samples will **cause the model to be biased towards certain identities**, which can be observed in Fig.1. This extremely unbalanced distribution of samples will lead to the selected pseudo-labeled are unbalanced for subsequent training. 
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/2020070510332397.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L05HVWV2ZXIxNQ==,size_16,color_FFFFFF,t_70)
@@ -93,6 +93,7 @@ Our method is based on the framework in [8].
 	-  Feature Space Regularization Loss (FSR Loss); 
 2.  select a few reliable pseudo-labeled candidates from unlabeled data according to a certain strategy as a **new subset for next training iteration**. 
  > The Exclusive Loss in [8] use unlabeled data as an auxiliary to improve training effect of the model. 
+
 ### The Exclusive Loss. 
 The Ex loss learn a distinguishable feature by **maximizing the distance of all unlabeled samples in feature space.**
 
@@ -110,10 +111,10 @@ where $$v_i = φ(θ;x_i)$$ be the L2-normalized feature embedding for the data $
 
 ## B. Preliminaries 
 
- Let $$L =\left\{(x_1,y_1),...,(x_{n_l},y_{n_l})\right\}$$ be the labeled set, and $$U = \left\{(x_{n_l+1},...,(x_{n_l+n_u})\right\}$$ be the unlabeled set, where $$x_i$$ and $$y_i$$ denotes the i-th image and its identity label, respectively. In addition, we have $$|L|= n_l$$ and $$|U|= n_u$$, where nl and nu are the number of samples. The CNN model $$φ$$ is used to embed images into the feature space. 
+ Let $$L =\left\{(x_1,y_1),...,(x_{n_l},y_{n_l})\right\}$$ be the labeled set, and $$U = \left\{(x_{n_l+1},...,(x_{n_l+n_u})\right\}$$ be the unlabeled set, where $$x_i$$ and $$y_i$$ denotes the i-th image and its identity label, respectively. In addition, we have $$\|L\|= n_l$$ and $$\|U\|= n_u$$, where nl and nu are the number of samples. The CNN model $$φ$$ is used to embed images into the feature space. 
 
 **For the evaluation stage**： 
- the query result is the ranking list of all gallery data according to the Euclidean Distance, i.e., $$|| φ(θ;x_q) − φ(θ;x_g) ||$$, where $$x_q$$ and $$x_g$$ denote the query data and the gallery data, respectively. 
+ the query result is the ranking list of all gallery data according to the Euclidean Distance, i.e., $$\|\| φ(θ;x_q) − φ(θ;x_g) \|\|$$, where $$x_q$$ and $$x_g$$ denote the query data and the gallery data, respectively. 
 
 
 **In estimation phase**:
@@ -135,18 +136,17 @@ Between the upper and lower branches in Fig.2, we utilize the **FSR Loss to adju
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200705110847909.png)
 where $$B_u$$ is the **batchsize** of unlabeled data and the $$D_i$$ means the average distance from vector $$v_i$$ to the whole $$V_u$$. Moreover, all the feature vectors are L2 normalized.
 
-~~为什么是除以的batchsize，而不是|vu|~~
 
 For $$∀v_i ∈ V_l$$, we can get the distance matrix D through Eq.(3), where $$D_i ∈ D$$. Based on D, we deﬁne the FSR loss as follows: 
 
-~~D确实是矩阵，长度和vl相同~~
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200705111401622.png)
-~~也就是让所有lebeled样本和其他unlabel的距离只差尽可能的小。~~
 
-where $$||·||$$means the Euclidean distance and $$B_l$$ is the batchsize of $$V_l$$. We calculate the sum of difference between any two samples according to the matrix D. By **minimizing the $$l_{FSR}$$**, we make the difference in distance between labeled samples and unlabeled samples smaller in feature space. 
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200705111401622.png)
+
+
+where $$\|\|·\|\|$$means the Euclidean distance and $$B_l$$ is the batchsize of $$V_l$$. We calculate the sum of difference between any two samples according to the matrix D. By **minimizing the $$l_{FSR}$$**, we make the difference in distance between labeled samples and unlabeled samples smaller in feature space. 
 >This balanced distribution will be proved to effective by the experiments. 
 
-~~Bu和Bl的值不相同吗?~~
+
 
 
 ### The ﬁnal objective Function. 
