@@ -113,7 +113,7 @@ where $$v_i = φ(θ;x_i)$$ be the L2-normalized feature embedding for the data $
  Let $$L =\left\{(x_1,y_1),...,(x_{n_l},y_{n_l})\right\}$$ be the labeled set, and $$U = \left\{(x_{n_l+1},...,(x_{n_l+n_u})\right\}$$ be the unlabeled set, where $$x_i$$ and $$y_i$$ denotes the i-th image and its identity label, respectively. In addition, we have $$\|L\|= n_l$$ and $$\|U\|= n_u$$, where nl and nu are the number of samples. The CNN model $$φ$$ is used to embed images into the feature space. 
 
 **For the evaluation stage**： 
- the query result is the ranking list of all gallery data according to the Euclidean Distance, i.e., $$\|\| φ(θ;x_q) − φ(θ;x_g) \|\|$$, where $$x_q$$ and $$x_g$$ denote the query data and the gallery data, respectively. 
+ the query result is the ranking list of all gallery data according to the Euclidean Distance, i.e., $$\| φ(θ;x_q) − φ(θ;x_g) \|$$, where $$x_q$$ and $$x_g$$ denote the query data and the gallery data, respectively. 
 
 
 **In estimation phase**:
@@ -142,7 +142,7 @@ For $$∀v_i ∈ V_l$$, we can get the distance matrix D through Eq.(3), where $
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200705111401622.png)
 
 
-where $$\|\|·\|\|$$means the Euclidean distance and $$B_l$$ is the batchsize of $$V_l$$. We calculate the sum of difference between any two samples according to the matrix D. By **minimizing the $$l_{FSR}$$**, we make the difference in distance between labeled samples and unlabeled samples smaller in feature space. 
+where $$\|·\|$$means the Euclidean distance and $$B_l$$ is the batchsize of $$V_l$$. We calculate the sum of difference between any two samples according to the matrix D. By **minimizing the $$l_{FSR}$$**, we make the difference in distance between labeled samples and unlabeled samples smaller in feature space. 
 >This balanced distribution will be proved to effective by the experiments. 
 
 
