@@ -59,8 +59,8 @@ we propose the **Feature Space Regularization loss** to balance the distribution
  we design **inter-class distance** to correct the distance between samples. 
  > We assume the K nearest neighbors of a unlabeled sample in unlabeled data set as the same identity, which is denoted as class U. Similarly, we can obtain the class L of a labeled sample. We combine the nearest class with nearest neighbor to estimate pseudo label for all unlabeled data. 
 
-
-==Our contributions==:
+    
+Our contributions:
 - We propose the **Feature Space Regularization loss** to balance the distribution of samples in feature space, which can help the model to learn a more robust representation. 
 - We design a **new distance metric** to estimate pseudo label for unlabeled data, which can get a higher prediction accuracy. 
 - Our method has achieved **surprisingly superior performance** on the one-shot learning in Re-ID, outperforming the state of the art method by 12.1 points on Market-1501 and 8.9 points on DukeMTMC-reID, the two large-scale datasets.
