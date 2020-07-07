@@ -87,6 +87,7 @@ The source-domain images’ and target-domain images’ **features encoded** by 
  The neural network is trained with a classiﬁcation loss $$L^s_{id}(θ)$$ and a triplet loss $$L^s_{tri}(θ)$$ to separate features belonging to different identities. **The overall loss** is therefore calculated as 
  ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200707154545842.png)
  > where  $$\lambda^s$$ is the parameter weighting the two losses. 
+
 ### 3.2.2 PSEUDO LABEL REFINERY WITH ON-LINE REFINED SOFT PSEUDO LABELS 
 
 > off-linereﬁned hard pseudo labels as introduced in Section 3.1, where the pseudo label generation and reﬁnement are conducted alternatively. **However, the pseudo labels generated in this way are hard (i.e.,theyare always of 100% conﬁdences) but noisy**
