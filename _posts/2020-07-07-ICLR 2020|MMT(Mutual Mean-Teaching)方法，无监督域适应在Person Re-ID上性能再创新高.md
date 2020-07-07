@@ -11,9 +11,9 @@ tags:
     - Unsupervised
     - Re-ID
 ---
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200707103934434.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L05HVWV2ZXIxNQ==,size_16,color_FFFFFF,t_70)
 为了减轻噪音伪标签的影响，文章提出了一种无监督的MMT（Mutual Mean-Teaching）方法，通过在迭代训练的方式中使用离线精炼硬伪标签和在线精炼软伪标签，来学习更佳的目标域中的特征。同时，还提出了可以让Traplet loss支持软标签的soft softmax-triplet loss”。 该方法在域自适应任务方面明显优于所有现有的Person re-ID方法，改进幅度高达18.2％。
-
 
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200707194418858.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L05HVWV2ZXIxNQ==,size_16,color_FFFFFF,t_70)
