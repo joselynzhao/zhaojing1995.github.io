@@ -1,4 +1,4 @@
-﻿---
+---
 layout:     post
 title:      One-shot video-based person re-identification with variance subsampling algorithm
 subtitle:   VSA
@@ -15,11 +15,13 @@ tags:
 
 
 **导言**
+
 针对现有工作中存在的错误伪标签问题，文章通过优化样本间的相似性度量和伪标签置信度评估策略来改善这个问题，从而提供模型性能。具体地，文章提出了方差置信度的概念，并设计了方差二次采样算法将方差置信度和距离置信度结合起来作为采样准则，同时还提出了方差衰减策略来更好了优化选择出来的伪标签样本。最终，该方法将MARS数据集上的mAP和Rank1分别提高了 3.94%和4.55%。
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20201127211047853.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L05HVWV2ZXIxNQ==,size_16,color_FFFFFF,t_70)
 
 **引用**
+
 > @article{DBLP:journals/jvca/ZhaoYYHYZ20,
   author    = {Jing Zhao and
                Wenjing Yang and
@@ -36,6 +38,7 @@ tags:
 }
 
 **相关链接**
+
 >原文链接：https://onlinelibrary.wiley.com/doi/10.1002/cav.1964 
 >或者在公众号“小样本学习与智能前沿”中回复“VSA”即可获取。
 
@@ -50,6 +53,7 @@ Previous works propose the distance-based sampling for unlabeled datapoints to a
 > - 一是提出了方差置信度（variance confidence）的概念
 > - 二是提出了VSA（方差二次采样算法）
 > - 三是提出了方差衰减策略（variance decay strategy）。
+
 # 基本框架
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20201127163840284.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L05HVWV2ZXIxNQ==,size_16,color_FFFFFF,t_70)
 The dataset extension process. Both labeled and unlabeled samples are extracted into the feature space through the backbone network in step 1. As shown in feature space (a), the gray points indicate unlabeled samples, and the colored hollow points indicate labeled samples. Different colors indicate different person identity. Then label estimation is performed according to the criterion that the unlabeled sample has the same label as the nearest labeled sample in step 2. We call the sample after label estimation a pseudo-label sample, which is the colored solid point in the feature space (b). Finally, the pseudo-label samples with higher confidence are preferred, which are closer to the labeled samples in feature space (c)
