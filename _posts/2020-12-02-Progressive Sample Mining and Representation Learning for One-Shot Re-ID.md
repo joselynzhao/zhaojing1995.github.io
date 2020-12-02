@@ -1,4 +1,4 @@
-﻿---
+---
 layout:     post
 title:      Progressive Sample Mining and Representation Learning for One-Shot Re-ID
 subtitle:   PSMA
@@ -12,7 +12,6 @@ tags:
     - Deep Learning
 ---
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20201202183823910.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L05HVWV2ZXIxNQ==,size_16,color_FFFFFF,t_70)
 
 **导言**
 文章提出了一种新的三元组损失 HSoften-Triplet-Loss，在处理one-shot Re-ID任务中的噪声伪标签样本方面非常强大。文章还提出了一种伪标签采样过程，确保了在保持高可靠性的同时为训练图像形成正对和负对的可行性。与此同时，文章采用对抗学习网络，为训练集提供更多具有相同ID的样本，从而增加了训练集的多样性。 实验表明，文章框架在Market-1501（mAP 42.7％）和DukeMTMC-Reid数据集（mAP 40.3％）取得了最先进的Re-ID性能。
@@ -35,6 +34,9 @@ tags:
 **相关链接**
 >paper：https://www.sciencedirect.com/science/article/pii/S0031320320304179?via%3Dihub 
 >code：https://github.com/detectiveli/PSMA
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20201202183823910.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L05HVWV2ZXIxNQ==,size_16,color_FFFFFF,t_70)
+
 # 主要挑战
  1) how to design **loss function**s for Re-ID training with pseudo labelled samples;
 2) how to **select unlabelled samples** for pseudo label; 
