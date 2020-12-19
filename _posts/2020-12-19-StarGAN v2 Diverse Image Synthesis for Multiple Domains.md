@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      StarGAN v2: Diverse Image Synthesis for Multiple Domains
+title:      StarGAN v2, Diverse Image Synthesis for Multiple Domains
 subtitle:   图像合成效果惊人
 date:       2020-12-19
 author:     JoselynZhao
