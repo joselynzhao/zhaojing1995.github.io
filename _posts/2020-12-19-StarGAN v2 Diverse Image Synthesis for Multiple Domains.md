@@ -1,4 +1,4 @@
-﻿---
+---
 layout:     post
 title:      StarGAN v2: Diverse Image Synthesis for Multiple Domains
 subtitle:   图像合成效果惊人
@@ -30,7 +30,7 @@ tags:
   year      = {2020}
 }
 
-@[toc]
+
 
 # 1. Introduction
 - **domain** ：a set of images that can be grouped as a visually distinctive category
@@ -38,7 +38,6 @@ tags:
 > 例如，我们可以用性别作为不同的域，则风格就是妆容、胡子和发型等（图1的上部分）。 
 
 - **An ideal image-to-image translation method** ： should be able to synthesize images considering the diverse styles in each domain.
-
 > 现有的方法： 只考虑的两个域之间的映射，当域数量增加的时候，他们不具备扩展性。
 
 - **StarGAN [6]**：one of the earliest models, which learns the mappings between all available domains using a single generator。 
