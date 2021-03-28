@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9d002cff-7017-4b19-987f-755d202ed60a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/zhaojing.github.io.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNAME" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gruntfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/._nav.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/head.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/nav.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/._default.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/keynote.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/post.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_markdownform" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-07-02-如此·以后 | 结语：做一个骄傲了不起的重大社会人.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-07-16-如此·以后 | 致谢.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-04-13-Google搜索的PageRank算法.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-04-14-Exploit the Unknown Gradually.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-04-15-A Survey of Zero-Shot Learning_ Settings, Methods, and Applications [reading notes].md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-04-18-Progressive Learning for Person Re-Identification with One Example.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-04-20-Deep Learning(二)：线性代数基础.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-04-22-深度学习 | 绪论.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-05-03-揣着情怀，发着光 | 12 一事无成的人间四月天.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-05-05-深度学习 | 工具及实践（TensorFlow）.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-05-16-深度学习 | TensorFlow 命名机制和变量共享、变量赋值与模型封装.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-05-21-深度学习 | TFSlim介绍.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-06-18-深度学习 | TensorFlow 可视化.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-06-25-深度学习 | 训练及优化方法.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-06-30-深度学习 | 模型评估与梯度下降优化.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-06-30-深度学习 | 物体检测.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-07-06-深度学习 | 实战1-python基本操作.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-07-06-深度学习 | 实战2-TensorFlow基础.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-07-11-深度学习 | 实战3-设计变量共享网络进行MNIST分类.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-07-11-深度学习 | 实战4-将LENET封装为class，并进行分类.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-07-11-深度学习 | 实战5-用slim 定义Lenet网络，并训练测试.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-07-16-深度学习 | 实战6-利用tensorboard实现卷积可视化.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-07-16-深度学习 | 实战7- 连体网络MINIST优化.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-07-21-深度学习 | 实战8 - 梯度截断.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-07-21-深度学习 | 实战9- 参数正则化.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-08-03-深度学习 | 实践方法论.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-08-04-Improving person re-identiﬁcation by attribute and identity learning[reading notes].md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-08-05-深度学习 | 应用.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-08-06-深度学习-机器学习基础.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-08-07-概念学习前沿报告.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-08-08-Generation Tasks.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-08-08-基于少量样本的快速学习(Few-shot learning).md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-08-09-PyTorch _ 01 简介.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-08-09-PyTorch _ 02 快速入门.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-08-20-Docker _ 入门.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-08-24-Zero-Shot Deep Domain Adaptation[reading notes].md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-09-06-为什么-关于因果关系的新科学 _ 导言.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-09-08-为什么-关于因果关系的新科学 _ 01 因果关系之梯.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-09-16-深度学习 _ 深度前馈网络.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-10-19-Re-ID 2019 Review.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-10-21-Image-Image Domain Adaptation with Preserved Self-Similarity andDomain-Dissimilarity for Person Re-i.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-10-21-Stepwise Metric Promotion for Unsupervised Video Person Re-identification.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-10-22-Dynamic Label Graph Matching for Unsupervised Video Re-Identification.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-10-23-Generative Adversarial Text to Image Synthesis.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-10-24-Decoupled Novel Object Captioner.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-10-24-Weakly Supervised Classification_ Towards Accurate Machine Learning with Low Labeling Costs.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-10-24-ZstGAN_ An Adversarial Approach forUnsupervised Zero-Shot Image-to-Image Translation.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-10-29-基于深度学习的行人重识别研究综述.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-10-31-Learning Generalisable Omni-Scale Representations for Person Re-Identification.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-11-22-深度学习实验环境配置记录(ubuntu+docker+python+conda+pytorch).md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-11-24-Plant Leaves Classification_ A Few-Shot Learning Method Based on Siamese Network.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-02-28-[New]特征空间相似性分析之相似遮挡（三点距离关系）.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-03-03-[干货]专知2020-02推荐清单.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-04-07-无监督小样本学习渐进式标签优化算法设计.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-04-11-Capsule Networks胶囊网络（一）.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-04-12-Graph Neural Networks图神经网络(一).md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-04-17-A Survey on Few-Shot Learning | Introduction and Overview.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-04-29-A Survey of Few-Shot Learing | Data.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-05-11-最新小样本学习综述 A Survey on Few-Shot Learning _ 四大模型Multitask Learning、Embedding Learning、External Memory….md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-05-12-深度学习基础 Probabilistic Graphical Models | Statistical and Algorithmic Foundations of Deep Learning.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-05-14-卡耐基梅隆大学 Probabilistic Graphical Models 课程 | Elements of Meta-Learning 关于元学习和强化学习.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-05-27-少标签数据学习|宾夕法尼亚大学Learning with Few Labeled Data.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-05-30-A Concise Review of Recent Few-shot Meta-learning Methods.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-07-05-Feature Space Regularization for Person Re-Identification with One Sample.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-07-07-ICLR 2020|MMT(Mutual Mean-Teaching)方法，无监督域适应在Person Re-ID上性能再创新高.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-07-23-[DML]Deep Mutual Learning 深度相互学习，神经网络也可以协作.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-07-24-[DKNN] istilling the Knowledge in a Neural Network 第一次提出神经网络的知识蒸馏概念.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-11-27-One-shot video-based person re-identification with variance subsampling algorithm.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-12-02-Progressive Sample Mining and Representation Learning for One-Shot Re-ID.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-12-14-Robust Re-Identification by Multiple Views Knowledge Distillation.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-12-19-StarGAN v2 Diverse Image Synthesis for Multiple Domains.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codecov.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/._bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/._bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/._hux-blog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/._hux-blog.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/._syntax.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/hux-blog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/hux-blog.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/syntax.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/._glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/._glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/._glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/._glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/._glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/404-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/BY_bolg_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Summertree.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about-BY-gentle.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/avatar-by.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/avatar_g.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/avatar_m.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/home-bg-art.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/home-bg-geek.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/home-bg-o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/home-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/log.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-2015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-BJJ.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-YesOrNo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-alibaba.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-android.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-coffee.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-cook.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-debug.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-desk.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-digital-native.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-e2e-ux.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-github-cup.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-hacker.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-iWatch.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-ios10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-ios9-web.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-ioses.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-js-version.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-keybord.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-kuaidi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-map.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-miui-ux.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-miui6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-mma-0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-mma-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-mma-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-mma-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-mma-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-mma-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-mma-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-os-metro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-re-vs-ng2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-rwd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-swift.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-swift2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-universe.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-bg-unix-linux.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/post-sample-image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/readme-home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/readme-side.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tag-bg-o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tag-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/._animatescroll.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/._bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/._bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/._hux-blog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/._hux-blog.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/._jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/._jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/._jquery.nav.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/._jquery.tagcloud.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/._md5.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/animatescroll.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hux-blog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hux-blog.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.nav.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.tagcloud.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/md5.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/less/._hux-blog.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/less/._mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/less/._side-catalog.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/less/._sidebar.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/less/._variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/less/hux-blog.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/less/mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/less/side-catalog.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/less/sidebar.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/less/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown_figure_handel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/offline.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwa/._icons" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwa/._manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwa/icons/._pwa_icon_128.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwa/icons/._pwa_icon_512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwa/icons/pwa_icon_128.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwa/icons/pwa_icon_512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwa/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tags.html" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/about.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="453">
+              <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>fa-weixin</find>
+      <find>zhaojing17@foxmail.com</find>
+      <find>github_username</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/_includes/footer.html" />
+        <option value="$PROJECT_DIR$/_layouts/page.html" />
+        <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/markdown_figure_handel.py" />
+        <option value="$PROJECT_DIR$/about.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/deployment.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1671" />
+    <option name="y" value="286" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="joselynzhao.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="joselynzhao.github.io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="joselynzhao.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="joselynzhao.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_includes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="joselynzhao.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="joselynzhao.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9d002cff-7017-4b19-987f-755d202ed60a" name="Default Changelist" comment="" />
+      <created>1609117406137</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609117406137</updated>
+      <workItem from="1609117408334" duration="15325000" />
+      <workItem from="1616899979541" duration="645000" />
+      <workItem from="1616900626510" duration="635000" />
+    </task>
+    <task id="LOCAL-00001" summary="更新about">
+      <created>1609118711006</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609118711006</updated>
+    </task>
+    <task id="LOCAL-00002" summary="更新外部链接">
+      <created>1609120075827</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609120075827</updated>
+    </task>
+    <task id="LOCAL-00003" summary="更新外部链接">
+      <created>1609122851337</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1609122851337</updated>
+    </task>
+    <task id="LOCAL-00004" summary="删掉知乎和微博">
+      <created>1609138211904</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609138211904</updated>
+    </task>
+    <task id="LOCAL-00005" summary="删掉知乎和微博">
+      <created>1609138295471</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1609138295471</updated>
+    </task>
+    <task id="LOCAL-00006" summary="修改邮箱">
+      <created>1609138662447</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1609138662447</updated>
+    </task>
+    <task id="LOCAL-00007" summary="修改信息">
+      <created>1609141458825</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1609141458825</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="16605000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-565" width="1456" height="2536" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14469914" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32972524" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32972524" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="更新about" />
+    <MESSAGE value="更新外部链接" />
+    <MESSAGE value="删掉知乎和微博" />
+    <MESSAGE value="修改邮箱" />
+    <MESSAGE value="修改信息" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改信息" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="152" column="33" selection-start-line="152" selection-start-column="33" selection-end-line="152" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="33" column="37" selection-start-line="26" selection-start-column="24" selection-end-line="33" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
